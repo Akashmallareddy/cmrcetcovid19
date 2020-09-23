@@ -4,19 +4,7 @@
 {% include head.html %}
 
 <body id="page-top">
-  <div id="webchat"/>
-
-<script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
-<script>
-  WebChat.default.init({
-    selector: "#webchat",
-    initPayload: "/get_started",
-    customData: {"language": "en"},
-    socketUrl: "http://35.208.6.41",
-    socketPath: "/socket.io/",
-    title: "Covid AI Bot",
-  })
-</script>
+  
   {% include nav.html %}
   {% include header.html %}
   {% include call-to-action.html %}
